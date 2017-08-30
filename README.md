@@ -2,6 +2,8 @@
 Description
 -----------
 Script to Create a capture of your Azure VM's
+If you're familiar to AWS and new to Azure this is similar to creating a AMI.
+Although Captures are limited to the resource they belong to.
 
 Prerequisuites
 -----------
@@ -14,7 +16,7 @@ Make the script executable <code>sudo chmod +x createCapture.sh</code>
 
 Usage
 -----------
-Before running the script you will need to deprovision the VM you wish to cancel
+Before running the script you will need to deprovision the VM you wish to Capture
  - Log in to the VM through SSH
  - Run <code>sudo waagent -deprovision+user</code>
 Once completed type <code>exit</code>
