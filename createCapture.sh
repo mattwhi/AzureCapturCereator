@@ -23,7 +23,7 @@ echo -n "Please enter your Resource Group [ENTER] "
 echo -n "Please enter your Virtual Machine [ENTER] "
 	read MYVM
 		MYVM=`echo ${MYVM} | awk '{print $1}'`
-echo -n "Please enter your Image [ENTER] "
+echo -n "Please enter a new image name [ENTER] "
 	read IMAGE
 		IMAGE=`echo ${MYVM} | awk '{print $1}'`
 echo
