@@ -1,4 +1,4 @@
-# AzureCapturCereator
+# AzureCaptureCreator
 Description
 -----------
 Script to Create a capture of your Azure VM's.
