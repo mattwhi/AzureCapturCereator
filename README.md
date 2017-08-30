@@ -18,6 +18,7 @@ Before running the script you will need to deprovision the VM you wish to cancel
  - Log in to the VM through SSH
  - Run <code>sudo waagent -deprovision+user</code>
 Once completed type <code>exit</code>
+
 For more information see https://docs.microsoft.com/en-us/azure/virtual-machines/linux/capture-image
 
 Return to terminal on local machine and run the script <code>./createCapture.sh</code>
